@@ -24,7 +24,7 @@ regressions = {}
 user_position = {}
 # example: user_position = c
 user_data = {}
-# example: user_data = {"user_id1": ["url-iticrm-app1", "cpu"], "user_id2": []}
+# example: user_data = {"user_id1": ["current_branch", "currenv_value"], "user_id2": []}
 def load_config():
     global regression, BOT_CONFIG
     with open('bot_config', encoding='utf-8') as f:
